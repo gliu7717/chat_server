@@ -1,0 +1,28 @@
+{
+  "name": "nodejsmongodb",
+  "version": "1.0.0",
+  "description": "a node mongodb example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gliu7717/nodejs_lessons"
+  },
+  "author": "gliu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gliu7717/nodejs_lessons"
+  },
+  "homepage": "https://github.com/gliu7717/nodejs_lessons",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.15",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0"
+  }
+}
