@@ -1,0 +1,19 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="signin content">
+    <form action="/login" method="POST">
+      <label for="email">email:</label>
+      <input type="text" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="text" id="password" name="password" required>
+      <button>Signin</button>
+    </form>
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>

@@ -109,3 +109,32 @@
       font-size: 1.2em;
       cursor: pointer;
     }
+
+        /* signin styles */
+        .signin form{
+          max-width: 400px;
+          margin: 0 auto;
+        }
+        .signin input,
+        .signin textarea{
+          display: block;
+          width: 100%;
+          margin: 10px 0;
+          padding: 8px;
+        }
+        .signin label{
+          display: block;
+          margin-top: 24px;
+        }
+        textarea{
+          height: 120px;
+        }
+        .signin button{
+          margin-top: 20px;
+          background: crimson;
+          color: white;
+          padding: 6px;
+          border: 0;
+          font-size: 1.2em;
+          cursor: pointer;
+        }

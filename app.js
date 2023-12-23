@@ -34,10 +34,18 @@ app.get('/', (req, res) => {
   res.redirect('/users');
 });
 
+app.get('/login', (req, res) => {
+  res.redirect('/users');
+});
 
-// blog routes
+
+// signup routes
 app.get('/users/create', (req, res) => {
-  res.render('create', { title: 'Create a new user' });
+  res.render('create', { title: 'Signup' });
+});
+
+app.get('/users/signin', (req, res) => {
+  res.render('signin', { title: 'Signin' });
 });
 
 app.get('/users', (req, res) => {
@@ -75,6 +83,8 @@ app.delete('/users/:id', (req, res) => {
 
 const model_register = require ("./models/register")
 model_register.register(app)
+const model_login = require ("./models/login")
+model_login.login(app)
 
 
 // 404 page
